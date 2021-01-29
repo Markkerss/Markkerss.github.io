@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <title>RandomLists</title>
+    <head>
+        <link href="style.css" rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/css?family=Slabo+27px" rel="stylesheet"/>
+    </head>
+    <body>
+        <header>
+            <img id="logo" src="toppng.com-list-view-icon-list-icon-1213x1577.png" height= 50px/>
+            <h1>RandomLists.org</h1>
+        </header>
+        <section id="content">
+            <h2 id="contentHead">Randomize Your List of 5 Items</h2>
+            <div class="inputList">
+                <label id="input1">1. </label>
+                <textarea class="textBox" id= "textBox1" rows="4" cols="50">mandi</textarea><br><br>
+                <label id="input2">2. </label>
+                <textarea class="textBox" id= "textBox2" rows="4" cols="50"></textarea><br><br>
+                <label id="input3">3. </label>
+                <textarea class="textBox" id= "textBox3" rows="4" cols="50"></textarea><br><br>
+                <label id="input4">4. </label>
+                <textarea class="textBox" id= "textBox4" rows="4" cols="50"></textarea><br><br>
+                <label id="input5">5. </label>
+                <textarea class="textBox" id= "textBox5" rows="4" cols="50"></textarea><br><br>
+                <div id="submitForm">
+                    <button class="btn" id="btn" type = "button" onClick= "result()">Randomize Order</button>
+                    <button class="btn" id="btn2" type = "button" onClick= "reset()">Reset</button>
+                </div>
+                <div id="results">
+                    <label>Randomized List: </label><br>
+                    <ul id="resultsList">
+    
+                    </ul><br><br>
+                </div>
+            </div>
+        </section>
+        <script src="hola.js"></script>
+    </body>
+    <footer>
+        <h5>&copy; 2021 by Marco L.</h5>
+    </footer>
+</html>
