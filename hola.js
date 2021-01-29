@@ -30,4 +30,5 @@ document.getElementById("btn2").addEventListener("click", function() {
     document.getElementById("textBox3").value = ""
     document.getElementById("textBox4").value = ""
     document.getElementById("textBox5").value = ""
+    document.getElementById("resultsList").innerHTML = "";
 })
