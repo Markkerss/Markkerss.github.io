@@ -34,6 +34,8 @@ header h1{
 
 body {
     background-image: url("marble3.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
     font-size: 20px;
 }
 
@@ -61,8 +63,10 @@ body {
     padding: 10px;
     border-radius: 10px;
     margin:10px;
-    width: 90px;
+    width: 150px;
     height: 60px;
+    display: inline-block;
+    font-size: 15px;
 }
 
 #results{
